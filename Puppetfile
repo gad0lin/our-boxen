@@ -56,6 +56,24 @@ github "ruby",        "7.2.4"
 github "stdlib",      "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
+github "vagrant",     "3.0.7"
+github "alfred",     "1.1.8"
+github "vlc",     "1.1.0"
+github "osx",     "2.2.2"
+github "libreoffice",     "4.0.3"
+github "virtualbox",     "1.0.11"
+github "packer",     "1.2.0"
+github "dropbox",     "1.2.0"
+github "macvim",     "1.0.0"
+github "vim",     "1.0.5"
+github "inductionapp", "1.0.0"
+github "tmux", "1.0.2"
+
+
+
+
+
+
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
