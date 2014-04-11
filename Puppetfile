@@ -66,7 +66,7 @@ github "packer",     "1.2.0"
 github "dropbox",     "1.2.0"
 github "macvim",     "1.0.0"
 github "vim",     "1.0.5"
-github "inductionapp", "1.0.0"
+github "induction", "1.0.0"
 github "tmux", "1.0.2"
 
 
