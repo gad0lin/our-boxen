@@ -57,6 +57,18 @@ node default {
   include git
   include hub
   include nginx
+  include "vagrant"
+  include "alfred"
+  include "vlc"
+  include "osx"
+  include "libreoffice"
+  include "virtualbox"
+  include "packer"
+  include "dropbox"
+  include "macvim"
+  include "vim"
+  include "induction"
+  include "tmux"
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
