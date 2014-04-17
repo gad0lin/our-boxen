@@ -9,6 +9,16 @@ GITHUBTARBALL
     boxen (3.4.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chicken_of_the_vnc
+  specs:
+    chicken_of_the_vnc (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
@@ -17,6 +27,16 @@ GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-eclipse
+  specs:
+    eclipse (2.3.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-evernote
+  specs:
+    evernote (2.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -52,11 +72,6 @@ GITHUBTARBALL
   remote: boxen/puppet-induction
   specs:
     induction (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-libreoffice
-  specs:
-    libreoffice (4.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-macvim
@@ -97,6 +112,11 @@ GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -144,6 +164,11 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.3)
@@ -161,8 +186,12 @@ GITHUBTARBALL
 DEPENDENCIES
   alfred (= 1.1.8)
   boxen (= 3.4.2)
+  chicken_of_the_vnc (= 1.0.0)
+  chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)
+  eclipse (= 2.3.0)
+  evernote (= 2.0.5)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
   git (= 2.3.0)
@@ -171,7 +200,6 @@ DEPENDENCIES
   hub (= 1.3.0)
   induction (= 1.0.0)
   inifile (= 1.0.3)
-  libreoffice (= 4.0.3)
   macvim (= 1.0.0)
   module-data (= 0.0.3)
   nginx (= 1.4.3)
@@ -181,6 +209,7 @@ DEPENDENCIES
   packer (= 1.2.0)
   phantomjs (= 2.1.0)
   pkgconfig (= 1.0.0)
+  python (= 1.3.0)
   repository (= 2.3.0)
   ruby (= 7.2.4)
   stdlib (= 4.1.0)
@@ -191,4 +220,5 @@ DEPENDENCIES
   virtualbox (= 1.0.11)
   vlc (= 1.1.0)
   xquartz (= 1.1.1)
+  zsh (= 1.0.0)
 
