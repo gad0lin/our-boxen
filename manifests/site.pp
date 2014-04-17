@@ -164,8 +164,16 @@ node default {
   ruby::version { '2.0.0': }
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
-
-  # common, useful packages
+  # Installing rbenv plugin
+  ruby::plugin { 'rbenv-vars':
+    ensure => 'v1.2.0',
+    source  => 'sstephenson/rbenv-vars'
+  }
+  ruby::plugin { 'rbenv-bundler':
+    ensure => '0.97',
+    source  => 'carsomyr/rbenv-bundler'
+  }
+ # common, useful packages
   package {
     [
       'ack',
