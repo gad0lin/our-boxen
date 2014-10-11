@@ -74,6 +74,7 @@ node default {
     'scrooloose/nerdtree'
   ]: }
 
+  vim::bundle { 'wincent/Command-T.git': }
   vim::bundle { 'Bogdanp/rbrepl.vim.git': }
   vim::bundle { 'Lokaltog/vim-powerline.git': }
   vim::bundle { 'Raimondi/delimitMate.git': }
@@ -135,8 +136,8 @@ node default {
     target  => "/Users/${::boxen_user}/.dotfiles/.vimrc",
     require => Repository["/Users/${::boxen_user}/.dotfiles"]
   }
-  osx::recovery_message { 'If this Mac is found, please itsaloon@gmx.com': }
-  include libreoffice
+  osx::recovery_message { 'If this Mac is found, please contact  itsaloon@gmx.com': }
+  #include libreoffice
   include virtualbox
   include packer
   include dropbox
@@ -144,6 +145,10 @@ node default {
   include induction
   include tmux
   include chrome
+  class { 'intellij':
+    edition => 'ultimate',
+      version => '13.1.1'
+  }
   include eclipse::jee 
   include evernote
 #  include chicken_of_the_vnc
