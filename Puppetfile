@@ -30,7 +30,7 @@ end
 # config. Required.
 
 github "boxen", "3.7.0"
-
+github "python"
 # Support for default hiera data in modules
 
 github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
@@ -62,3 +62,21 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "vagrant",     "3.0.7"
+github "alfred",     "1.1.8"
+github "vlc",        "1.1.0"
+github "virtualbox",     "1.0.11"
+github "packer",     "1.2.0"
+github "dropbox",     "1.2.0"
+github "macvim",     "1.0.0"
+github "vim",     "1.0.5"
+github "induction", "1.0.0"
+github "intellij", "1.5.1"
+github "tmux", "1.0.2"
+github "zsh", "1.0.0"
+github "chrome", "1.1.2"
+github "eclipse", "2.3.0"
+github 'evernote', "2.0.5"
+github 'chicken_of_the_vnc', '1.0.0'
+github "libreoffice",     "4.0.3"
