@@ -177,7 +177,8 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'csshx'
+      'csshx',
+      'mongodb'
     ]:
   }
 
