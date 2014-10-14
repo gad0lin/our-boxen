@@ -80,3 +80,4 @@ github "eclipse", "2.3.0"
 github 'evernote', "2.0.5"
 github 'chicken_of_the_vnc', '1.0.0'
 github "libreoffice",     "4.0.3"
+github "mongodb", "2.6.1"

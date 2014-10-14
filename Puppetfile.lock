@@ -89,6 +89,11 @@ GITHUBTARBALL
     macvim (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mongodb
+  specs:
+    mongodb (2.6.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
@@ -209,6 +214,7 @@ DEPENDENCIES
   libreoffice (= 4.0.3)
   macvim (= 1.0.0)
   module_data (= 0.0.3)
+  mongodb (= 2.6.1)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
