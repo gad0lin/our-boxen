@@ -66,7 +66,6 @@ node default {
   include osx::finder::show_all_on_desktop
   include osx::universal_access::ctrl_mod_zoom
   include osx::dock::clear_dock
-  #include osx
   include vim
   vim::bundle { [
     'scrooloose/syntastic',
@@ -151,8 +150,13 @@ node default {
   }
   include eclipse::jee 
   include evernote
-#  include chicken_of_the_vnc
-
+  include chicken_of_the_vnc
+  include skype
+  include tor
+  include sublime_text
+  include spotify
+  include firefox
+  include cyberduck
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
@@ -178,7 +182,8 @@ node default {
       'findutils',
       'gnu-tar',
       'csshx',
-      'mongodb'
+      'mongodb',
+      'wget'
     ]:
   }
 
